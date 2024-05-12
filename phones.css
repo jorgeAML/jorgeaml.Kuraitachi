@@ -1,0 +1,75 @@
+/*Phones*/
+@media (min-width: 320px) and (max-width: 800px) {
+	.site-header {
+		background-image: var(--image-header);
+		background-size: cover;
+		background-position: 50%;
+		background-repeat: no-repeat;
+		position: relative;
+		min-height: 100vh;
+		background-color: var(--black-virginia);
+		background-blend-mode: multiply;
+	}
+	#header-title {
+		display: flex;
+		flex-flow: column wrap;
+		justify-content: center;
+		margin: 2% 5% 2% 5%;
+		position: absolute;
+	}
+	#header-title > h1 {
+		font-family: var(--passion);
+		color: white;
+		font-size: 4rem;
+	}
+	#header-title > h1 > span {
+		font-family: var(--passion);
+		color: white;
+		font-size: 5rem;
+	}
+	#header-title > p {
+		font-family: var(--dosis);
+		color: white;
+		font-size: 3rem;
+		margin: -70px 0 0 0;
+		font-stretch: 150%;
+	}	
+	.container-header {
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: flex-start;
+		align-items: center;
+		gap: 10px 10px;
+		position: relative;
+	}
+	.buttonH {
+		margin: 10px;
+		font-family: var(--dosis);
+		color: var(--whitef);
+		font-size: 1.5em;
+		border: 2px solid var(--whitef);
+		border-radius: 5px 20px 5px 20px;
+		padding: 1.2%;
+		text-align: center;
+		box-shadow: 1px 1px 10px 1px var(--procras2);
+		transition: box-shadow 0.5s ease-out;
+	}
+	.buttonH:hover {
+		box-shadow: 1px 1px 10px 1px var(--procras);
+	}
+	.buttonH:nth-child(1) {
+		order: 1;
+		flex: 1 1 auto;
+	}
+	.buttonH:nth-child(2) {
+		order: 2;
+		flex: 1 1 auto;
+	}
+	.buttonH:nth-child(3) {
+		order: 3;
+		flex: 1 1 auto;
+	}
+	.a-h {
+		color: var(--whitef);
+	}
+}

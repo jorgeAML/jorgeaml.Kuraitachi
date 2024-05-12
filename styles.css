@@ -1,0 +1,30 @@
+/*Styles.css*/
+:root {
+		--image-header: url("./images/DSC00981.jpg");
+		--image-header2: url("./images/pre1.jpg");
+		/*Virginia Colors Palette */
+		--red-virginia: #920101;
+		--black-virginia: #48404d;
+		--greyTenue1-virginia: #5b5b5b;
+		--greyTenue2-virginia: #999999;
+		--blue-virginia: #2064a2;
+		/*Colors for fonts*/
+		--whitef: #fffff0;
+		/*FONTS*/
+		--dosis: 'Dosis', sans-serif;
+		--rubikMono: 'Rubik Mono One', monospace;
+		--passion: 'Passion One', sans-serif;
+		/*box-shadow colors */
+		--procras: #5f86a2;
+		--procras2: #9d3d3d;
+		
+}
+body {
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	background-color: #ffffff;
+}
+a {
+	text-decoration: none;
+}
