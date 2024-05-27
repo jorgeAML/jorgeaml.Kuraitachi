@@ -6,8 +6,8 @@
 		background-repeat: no-repeat;
 		position: relative;
 		min-height: 100vh;
-		background-color: var(--black-virginia);
-		background-blend-mode: multiply;
+		background-color: var(--red-virginia);
+		background-blend-mode: overlay;
 	}
 	#header-title {
 		display: flex;
