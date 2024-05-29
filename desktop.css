@@ -72,4 +72,45 @@
 	.a-h {
 		color: var(--whitef);
 	}
+	.main-container {
+		overflow: hidden;
+		height: auto;
+		background-color: transparent;
+		margin: 3%;
+	}
+	.row {
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: flex-start;
+		align-items: center;
+		gap: 25px;
+	}
+	.card-link {
+		
+	}
+	.card-header {
+		border: 1px dashed var(--red-virginia);
+		border-radius: 5px;
+		padding: 1%;
+		font-family: var(--dosis);
+	}
+	.card-header > h3 {
+		font-family: var(--passion);
+		background-color: var(--red-virginia);
+		padding: 1%;
+		color: white;
+		border-radius: 5px;
+	}
+	.card-header:nth-child(1), .card-link:nth-child(1) {
+		order:1;
+		flex: 1 1 auto;
+	}
+	.card-header:nth-child(2), .card-link:nth-child(2) {
+		order:2;
+		flex: 1 1 auto;
+	}
+	.card-header:nth-child(3), .card-link:nth-child(3) {
+		order:3;
+		flex: 1 1 auto;
+	}
 }
