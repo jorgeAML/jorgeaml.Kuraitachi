@@ -99,7 +99,9 @@
 		background-color: var(--red-virginia);
 		padding: 1%;
 		color: white;
-		border-radius: 5px;
+		border-radius: 2px;
+		border: 2px solid var(--red-chillante);
+		box-shadow: 1px 1px 1px 1px var(--red-wine);
 	}
 	.card-header:nth-child(1), .card-link:nth-child(1) {
 		order:1;
