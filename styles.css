@@ -8,6 +8,10 @@
 		--greyTenue1-virginia: #5b5b5b;
 		--greyTenue2-virginia: #999999;
 		--blue-virginia: #2064a2;
+		--hidden-forest-orange:	#ffa03b;
+		--hidden-forest-orange-dark: #ff5e36;
+		--hidden-forest-black: #181515;
+		--hidden-forest-grey: #362e2e;
 		/*Colors for fonts*/
 		--whitef: #fffff0;
 		/*FONTS*/
@@ -25,9 +29,16 @@ body {
 	margin: 0;
 	height: 100%;
 	width: 100%;
-	background-color: #ffffff;
+	background-color: var(--hidden-forest-black);
 }
 a {
 	text-decoration: none;
 	color: inherit;
+}
+footer {
+	margin: 0;
+	background-color: var(--hidden-forest-black);
+	text-align: center;
+	color: var(--hidden-forest-orange);
+	font-family: var(--dosis);
 }
