@@ -30,7 +30,10 @@
 		</div>
 	</header>
 	<main class="site-main">
-		
+		<div>
+			<h1>Proyectos</h1>
+		</div>
+
 	</main>
 	<footer></footer>
 
