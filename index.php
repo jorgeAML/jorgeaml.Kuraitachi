@@ -33,6 +33,7 @@
 		<div>
 			<h1>Proyectos</h1>
 		</div>
+		<div><h1>Mate Computo 2</h1></div>
 
 	</main>
 	<footer></footer>
